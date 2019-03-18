@@ -23,7 +23,7 @@
 					<view class="uni-swipe-action__btn-group" :id="elId">
 						<div v-for="(item,index) in options" :key="index" class="uni-swipe-action--btn" :style="{backgroundColor: item.style && item.style.backgroundColor ? item.style.backgroundColor : '#C7C6CD',color: item.style && item.style.color ? item.style.color : '#FFFFFF',fontSize: item.style && item.style.fontSize ? item.style.fontSize : '28upx'}"
 						 @click="bindClickBtn(item,i)">
-							{{item.text == '置顶' ? '取消置顶' : item.text}}
+							{{item.text }}
 						</div>
 					</view>
 				</view>
