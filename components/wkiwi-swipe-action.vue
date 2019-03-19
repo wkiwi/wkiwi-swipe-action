@@ -18,7 +18,6 @@
 								<view class="mark" v-if="it.count>0">{{it.count}}</view>
 						  </view>
 						</view>
-						<!-- <view  class="line"></view> -->
 					</view>
 					<view class="uni-swipe-action__btn-group" :id="elId">
 						<div v-for="(item,index) in options" :key="index" class="uni-swipe-action--btn" :style="{backgroundColor: item.style && item.style.backgroundColor ? item.style.backgroundColor : '#C7C6CD',color: item.style && item.style.color ? item.style.color : '#FFFFFF',fontSize: item.style && item.style.fontSize ? item.style.fontSize : '28upx'}"
@@ -34,7 +33,7 @@
 
 <script>
 	export default {
-		name: 'uni-swipe-action',
+		name: 'wkiwi-swipe-action',
 		props: {
 			options: Array,
 			messagesList:Array,
