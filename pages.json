@@ -1,0 +1,20 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/wkiwi-swipe-action/wkiwi-swipe-action",
+			"style": {
+				"navigationBarTitleText": "wkiwi-swipe-action"
+			}
+		},
+		{
+			"path": "pages/message_info/message_info",
+			"style": {}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "wkiwi-swipe-action",
+		"navigationBarBackgroundColor": "#4191ea",
+		"backgroundColor": "#4191ea"
+	}
+}

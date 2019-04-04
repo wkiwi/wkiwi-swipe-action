@@ -1,0 +1,20 @@
+{
+  "pages": [
+    "pages/wkiwi-swipe-action/wkiwi-swipe-action",
+    "pages/message_info/message_info"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "wkiwi-swipe-action",
+    "navigationBarBackgroundColor": "#4191ea",
+    "backgroundColor": "#4191ea"
+  },
+  "usingComponents": {},
+  "splashscreen": {
+    "alwaysShowBeforeRender": true,
+    "autoclose": false
+  },
+  "appname": "仿QQ",
+  "compilerVersion": "1.8.2"
+}

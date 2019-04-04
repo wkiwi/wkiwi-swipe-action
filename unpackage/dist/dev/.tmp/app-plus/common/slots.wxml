@@ -1,0 +1,6 @@
+<import src="/components/wkiwi-action.vue.wxml" />
+<import src="/components/left-message.vue.wxml" />
+<import src="/components/right-message.vue.wxml" />
+<import src="/components/send-message.vue.wxml" />
+<import src="/components/avator-group.vue.wxml" />
+

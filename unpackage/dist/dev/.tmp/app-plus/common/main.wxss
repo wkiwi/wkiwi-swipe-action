@@ -1,0 +1,291 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*每个页面公共css */
+@font-face {
+  font-family: 'iconfont';  /* project id 1115206 */
+  src: url('https://at.alicdn.com/t/font_1115206_42hjuqwimcl.eot');
+  src: url('https://at.alicdn.com/t/font_1115206_42hjuqwimcl.eot?#iefix') format('embedded-opentype'),
+  url('https://at.alicdn.com/t/font_1115206_42hjuqwimcl.woff2') format('woff2'),
+  url('https://at.alicdn.com/t/font_1115206_42hjuqwimcl.woff') format('woff'),
+  url('https://at.alicdn.com/t/font_1115206_42hjuqwimcl.ttf') format('truetype'),
+  url('https://at.alicdn.com/t/font_1115206_42hjuqwimcl.svg#iconfont') format('svg');
+}
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.ic_wechat:before {
+  content: "\E652";
+}
+.ic_fenxiao:before {
+  content: "\E653";
+}
+.ic_left:before {
+  content: "\E600";
+}
+.ic_set:before {
+  content: "\E601";
+}
+.ic_account-num:before {
+  content: "\E602";
+}
+.ic_key:before {
+  content: "\E603";
+}
+.ic_shop:before {
+  content: "\E604";
+}
+.ic_find:before {
+  content: "\E605";
+}
+.ic_contacts:before {
+  content: "\E606";
+}
+.ic_group:before {
+  content: "\E607";
+}
+.ic_department:before {
+  content: "\E608";
+}
+.ic_chat-record:before {
+  content: "\E609";
+}
+.ic_public-address:before {
+  content: "\E60A";
+}
+.ic_collection-event:before {
+  content: "\E60B";
+}
+.ic_close:before {
+  content: "\E60C";
+}
+.ic_system-news:before {
+  content: "\E60D";
+}
+.ic_message-task:before {
+  content: "\E60E";
+}
+.ic_more:before {
+  content: "\E60F";
+}
+.ic_add-colleague:before {
+  content: "\E610";
+}
+.ic_create-agenda:before {
+  content: "\E611";
+}
+.ic_create-tasks:before {
+  content: "\E612";
+}
+.ic_message-management:before {
+  content: "\E613";
+}
+.ic_messages-set:before {
+  content: "\E614";
+}
+.ic_qq:before {
+  content: "\E615";
+}
+.ic_weibo:before {
+  content: "\E617";
+}
+.ic_organize-structure:before {
+  content: "\E618";
+}
+.ic_my-colleague:before {
+  content: "\E619";
+}
+.ic_group-chat:before {
+  content: "\E61A";
+}
+.ic_public-code:before {
+  content: "\E61B";
+}
+.ic_add:before {
+  content: "\E61C";
+}
+.ic_group-1:before {
+  content: "\E61D";
+}
+.ic_group-2:before {
+  content: "\E61E";
+}
+.ic_clock:before {
+  content: "\E61F";
+}
+.ic_report:before {
+  content: "\E620";
+}
+.ic_schedule-tasks:before {
+  content: "\E621";
+}
+.ic_approval:before {
+  content: "\E622";
+}
+.ic_party-building-2:before {
+  content: "\E623";
+}
+.ic_police-work:before {
+  content: "\E624";
+}
+.ic_teleconference:before {
+  content: "\E625";
+}
+.ic_videoconferencing:before {
+  content: "\E626";
+}
+.ic_enterprise-email:before {
+  content: "\E627";
+}
+.ic_cloud-disk:before {
+  content: "\E628";
+}
+.ic_up:before {
+  content: "\E629";
+}
+.ic_down:before {
+  content: "\E62A";
+}
+.ic_party-building-1:before {
+  content: "\E62B";
+}
+.ic_intelligent-meeting:before {
+  content: "\E62C";
+}
+.ic_customer-service:before {
+  content: "\E62D";
+}
+.ic_blackboard-news:before {
+  content: "\E62E";
+}
+.ic_report-form:before {
+  content: "\E62F";
+}
+.ic_check-work:before {
+  content: "\E630";
+}
+.ic_ID-photo:before {
+  content: "\E631";
+}
+.ic_pdf:before {
+  content: "\E632";
+}
+.ic_personal-incomeTax:before {
+  content: "\E633";
+}
+.ic_finance:before {
+  content: "\E634";
+}
+.ic_my-notice:before {
+  content: "\E635";
+}
+.ic_my-collection:before {
+  content: "\E636";
+}
+.ic_my-service:before {
+  content: "\E637";
+}
+.ic_business-card:before {
+  content: "\E638";
+}
+.ic_more-jump:before {
+  content: "\E639";
+}
+.ic_help-center:before {
+  content: "\E63A";
+}
+.ic_topic-switching:before {
+  content: "\E63B";
+}
+.ic_about-us:before {
+  content: "\E63C";
+}
+.ic_feedback:before {
+  content: "\E63D";
+}
+.ic_system-set:before {
+  content: "\E63E";
+}
+.ic_voice:before {
+  content: "\E63F";
+}
+.ic_expression:before {
+  content: "\E640";
+}
+.ic_open:before {
+  content: "\E641";
+}
+.ic_new-edition:before {
+  content: "\E642";
+}
+.ic_new-function:before {
+  content: "\E643";
+}
+.ic_copyright-information:before {
+  content: "\E644";
+}
+.ic_off-line:before {
+  content: "\E645";
+}
+.ic_collection-per:before {
+  content: "\E646";
+}
+.ic_phone:before {
+  content: "\E647";
+}
+.ic_landline:before {
+  content: "\E648";
+}
+.ic_email:before {
+  content: "\E649";
+}
+.ic_appcenter:before {
+  content: "\E64A";
+}
+.ic_message:before {
+  content: "\E64C";
+}
+.ic_mine:before {
+  content: "\E64D";
+}
+.ic_concat:before {
+  content: "\E64B";
+}
+.ic_appcenter-active:before {
+  content: "\E64E";
+}
+.ic_shoucang77:before {
+  content: "\E64F";
+}
+.ic_concat-active:before {
+  content: "\E650";
+}
+.ic_message-active:before {
+  content: "\E651";
+}
+.ic_mine-active:before {
+  content: "\E616";
+}
+.ic_more1:before {
+  content: "\E654";
+}
+.ic_saoyisao:before {
+	content: "\E655";
+}
+
